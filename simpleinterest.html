@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <table border="1" >
+<tr>
+    <th colspan="2"> Simple Interest</th>
+</tr>
+<tr>
+    <td>Principle Amount </td>
+    <td><input type="text" name="p" id="p"></td>
+</tr>
+<tr>
+    <td>Rate in % </td>
+    <td><input type="text" name="r" id="r"></td>
+</tr>
+<tr>
+    <td>Time in Year </td>
+    <td><input type="text" name="t" id="t"></td>
+</tr>
+<tr>
+
+</tr>
+
+<tr>
+    <td>Interest</td>
+    <td><input type="text" name="i" id="i"></td>
+</tr>
+<tr>
+    <td> Amount </td>
+    <td><input type="text" name="a" id="a"></td>
+</tr>
+<tr>
+    <td colspan="2"><input type="button" value="OK" id="abc"></td>
+</tr>
+    </table>
+    <script>
+        $("#abc").on("click",()=>{
+            $("table").toggle("slow");
+        })
+    </script>
+</body>
+</html>

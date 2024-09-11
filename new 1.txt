@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<body>
+<h1>some links</h1>
+<a href="#a1">First Heading</a>
+<a href="#a2">Second Heading</a>
+<a href="#a3">Third Heading</a>
+<a href="#a4">Fourth Heading</a>
+<h1 id="a1">First Heading</h1>
+<p1>---------------------------</p1>
+<h2 id="a2">Second Heading</h2>
+<p2>---------------------------</p2>
+<h3 id="a3">Third Heading</h3>
+<p3>---------------------------</p3>
+<h4 id="a4">Fourth Heading</h4>
+<p4>---------------------------</p4>
+</body>
+</html>
